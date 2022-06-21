@@ -11,6 +11,8 @@
 		495C6BE128617F0D00932BFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C6BE028617F0D00932BFB /* ContentView.swift */; };
 		495C6BE328617F0E00932BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C6BE228617F0E00932BFB /* Assets.xcassets */; };
 		495C6BE628617F0F00932BFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C6BE528617F0F00932BFB /* Preview Assets.xcassets */; };
+		4964471A2862095900FFEA49 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447192862095900FFEA49 /* News.swift */; };
+		4964471E28620AE500FFEA49 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964471D28620AE500FFEA49 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		495C6BE028617F0D00932BFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		495C6BE228617F0E00932BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495C6BE528617F0F00932BFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		496447192862095900FFEA49 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		4964471D28620AE500FFEA49 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		495C6BDD28617F0D00932BFB /* MVVM News App */ = {
 			isa = PBXGroup;
 			children = (
+				4964471C28620AD900FFEA49 /* Config */,
+				4964471B28620AD100FFEA49 /* Services */,
 				495C6BEC28617F8F00932BFB /* Models */,
 				495C6BEE28617FD000932BFB /* Views */,
 				495C6BEF28617FDD00932BFB /* ViewModels */,
@@ -70,6 +76,7 @@
 		495C6BEC28617F8F00932BFB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				496447192862095900FFEA49 /* News.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +104,21 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4964471B28620AD100FFEA49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4964471C28620AD900FFEA49 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4964471D28620AE500FFEA49 /* API.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4964471A2862095900FFEA49 /* News.swift in Sources */,
 				495C6BE128617F0D00932BFB /* ContentView.swift in Sources */,
+				4964471E28620AE500FFEA49 /* API.swift in Sources */,
 				495C6BDF28617F0D00932BFB /* MVVMNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
