@@ -13,6 +13,8 @@
 		495C6BE628617F0F00932BFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C6BE528617F0F00932BFB /* Preview Assets.xcassets */; };
 		4964471A2862095900FFEA49 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447192862095900FFEA49 /* News.swift */; };
 		4964471E28620AE500FFEA49 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964471D28620AE500FFEA49 /* API.swift */; };
+		4964472028620BDA00FFEA49 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964471F28620BDA00FFEA49 /* NetworkManager.swift */; };
+		4964472228620F7700FFEA49 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964472128620F7700FFEA49 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		495C6BE528617F0F00932BFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		496447192862095900FFEA49 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		4964471D28620AE500FFEA49 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4964471F28620BDA00FFEA49 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4964472128620F7700FFEA49 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		4964471B28620AD100FFEA49 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				4964471F28620BDA00FFEA49 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 		4964471C28620AD900FFEA49 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				4964472128620F7700FFEA49 /* AppError.swift */,
 				4964471D28620AE500FFEA49 /* API.swift */,
 			);
 			path = Config;
@@ -193,6 +199,8 @@
 			files = (
 				4964471A2862095900FFEA49 /* News.swift in Sources */,
 				495C6BE128617F0D00932BFB /* ContentView.swift in Sources */,
+				4964472228620F7700FFEA49 /* AppError.swift in Sources */,
+				4964472028620BDA00FFEA49 /* NetworkManager.swift in Sources */,
 				4964471E28620AE500FFEA49 /* API.swift in Sources */,
 				495C6BDF28617F0D00932BFB /* MVVMNewsApp.swift in Sources */,
 			);
