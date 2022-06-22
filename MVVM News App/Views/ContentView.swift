@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var newsListViewModel = NewsListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Group {
+            switch(newsListViewModel.viewState) {
+            case .loading:
+                ProgressView()
+            case .loaded:
+                NewsListView(newsListViewModel: newsListViewModel)
+            case .error:
+                Text("Error occurred")
+            }
+        }
+        .task {
+            await newsListViewModel.fetchNews()
+        }
     }
 }
 

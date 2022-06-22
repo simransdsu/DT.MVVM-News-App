@@ -14,7 +14,7 @@ struct API {
   static let EVERYTHING_ENDPOINT = "\(NEWS_BASE_URL)/everything?apiKey=\(KEY)"
   
   static func GET_TOP_HEADLINES_URL(country: String, category: String) throws -> URL {
-    let urlstring = "\(NEWS_BASE_URL)/top-headling?apiKey=\(KEY)&country=\(country)&category=\(category)"
+    let urlstring = "\(NEWS_BASE_URL)/top-headlines?apiKey=\(KEY)&country=\(country)&category=\(category)"
     guard let url = URL(string: urlstring) else {
       throw AppError(message: "Invalid request. Please try again",
                      description: "Invalid URL: \(urlstring), please make sure your url is correct.")
