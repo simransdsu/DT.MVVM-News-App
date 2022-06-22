@@ -23,6 +23,7 @@
 		49644726286212A000FFEA49 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644725286212A000FFEA49 /* NewsListViewModel.swift */; };
 		496447282862BE6900FFEA49 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447272862BE6900FFEA49 /* TagView.swift */; };
 		4964472A2862BF7000FFEA49 /* AuthorSourceTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */; };
+		4964472C2862C37800FFEA49 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964472B2862C37800FFEA49 /* SwiftUIWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		49644725286212A000FFEA49 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		496447272862BE6900FFEA49 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorSourceTagView.swift; sourceTree = "<group>"; };
+		4964472B2862C37800FFEA49 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				493FB5652862B50500639C5D /* TitleDescriptionView.swift */,
 				496447272862BE6900FFEA49 /* TagView.swift */,
 				496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */,
+				4964472B2862C37800FFEA49 /* SwiftUIWebView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				493FB5642862B48C00639C5D /* NewsImageView.swift in Sources */,
 				493FB5612862AF5A00639C5D /* NewsListView.swift in Sources */,
 				495C6BDF28617F0D00932BFB /* MVVMNewsApp.swift in Sources */,
+				4964472C2862C37800FFEA49 /* SwiftUIWebView.swift in Sources */,
 				49644726286212A000FFEA49 /* NewsListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
