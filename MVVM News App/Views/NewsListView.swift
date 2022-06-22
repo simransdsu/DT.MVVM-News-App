@@ -22,6 +22,7 @@ struct NewsListView: View {
             .listStyle(.plain)
             .navigationTitle(Text("Headlines ⨁"))
         }
+        .navigationViewStyle(.stack)
     }
 }
 

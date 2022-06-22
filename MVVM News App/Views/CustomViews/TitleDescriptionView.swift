@@ -1,5 +1,5 @@
 //
-//  NewsCell.swift
+//  TitleDescriptionView.swift
 //  MVVM News App
 //
 //  Created by Simran Preet Singh Narang on 2022-06-21.
@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct NewsCell: View {
+struct TitleDescriptionView: View {
     
     let item: NewsViewModel
     
     var body: some View {
         VStack(alignment: .leading) {
-            NewsImageView(urlString: item.urlToImage)
-            TitleDescriptionView(item: item)
+            Text(item.title)
+                .font(.title3.bold())
+            Text(item.description)
+                .lineLimit(3)
+                .font(.caption)
+                .foregroundColor(.secondary)
         }
-        .padding()
-        .background(Color.gray.opacity(0.1))
-        .cornerRadius(10)
     }
 }
 
-struct NewsCell_Previews: PreviewProvider {
-    
+struct TitleDescriptionView_Previews: PreviewProvider {
     static var previews: some View {
         let news = News(author: "Author",
                         title: "Breaking News",
@@ -32,6 +32,6 @@ struct NewsCell_Previews: PreviewProvider {
                         url: "",
                         source: News.Source(id: "12334", name: "New York Times"))
         let newsViewModel = NewsViewModel(news: news)
-        return NewsCell(item: newsViewModel)
+        TitleDescriptionView(item: newsViewModel)
     }
 }
