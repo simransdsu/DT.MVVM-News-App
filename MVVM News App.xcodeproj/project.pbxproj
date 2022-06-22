@@ -21,6 +21,8 @@
 		4964472228620F7700FFEA49 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964472128620F7700FFEA49 /* AppError.swift */; };
 		496447242862114100FFEA49 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447232862114100FFEA49 /* NewsViewModel.swift */; };
 		49644726286212A000FFEA49 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49644725286212A000FFEA49 /* NewsListViewModel.swift */; };
+		496447282862BE6900FFEA49 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447272862BE6900FFEA49 /* TagView.swift */; };
+		4964472A2862BF7000FFEA49 /* AuthorSourceTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		4964472128620F7700FFEA49 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		496447232862114100FFEA49 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		49644725286212A000FFEA49 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		496447272862BE6900FFEA49 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorSourceTagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			children = (
 				493FB5632862B48C00639C5D /* NewsImageView.swift */,
 				493FB5652862B50500639C5D /* TitleDescriptionView.swift */,
+				496447272862BE6900FFEA49 /* TagView.swift */,
+				496447292862BF7000FFEA49 /* AuthorSourceTagView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				4964472228620F7700FFEA49 /* AppError.swift in Sources */,
 				4964472028620BDA00FFEA49 /* NetworkManager.swift in Sources */,
 				496447242862114100FFEA49 /* NewsViewModel.swift in Sources */,
+				496447282862BE6900FFEA49 /* TagView.swift in Sources */,
+				4964472A2862BF7000FFEA49 /* AuthorSourceTagView.swift in Sources */,
 				493FB5662862B50500639C5D /* TitleDescriptionView.swift in Sources */,
 				4964471E28620AE500FFEA49 /* API.swift in Sources */,
 				493FB5642862B48C00639C5D /* NewsImageView.swift in Sources */,

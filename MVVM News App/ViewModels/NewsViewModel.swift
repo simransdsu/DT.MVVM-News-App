@@ -33,4 +33,8 @@ struct NewsViewModel {
   var urlToImage: String {
     return news.urlToImage ?? "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/breaking-news-poster-design-template-232c3f2700b91a0fd6e3a5a2e583a5da_screen.jpg"
   }
+  
+  var source: String {
+    return news.source?.name ?? ""
+  }
 }
